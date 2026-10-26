@@ -1,0 +1,13 @@
+# Semantic engineering checklist
+- [ ] Every critical term has an expert definition, owner, status and version
+- [ ] Synonyms and abbreviations listed; matching scoped by domain
+- [ ] Words with cross-industry meanings (positive, cold, loss, negative) have explicit tests per domain
+- [ ] Every time/amount field has a contract: unit, direction, limit, origin system
+- [ ] Elapsed and remaining are computed, never inferred by a model
+- [ ] Direction or unit mismatches escalate
+- [ ] Draft or unknown terms cannot auto-approve
+- [ ] Critical results use deterministic rules
+- [ ] Expert review queue exists with an owner
+- [ ] Adversarial phrasing ("positive outcome", "basically approved") is in the test suite
+- [ ] Baseline comparison reports critical recall and unsafe proceeds, not just accuracy
+- [ ] Each decision emits a trace with glossary version

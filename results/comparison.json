@@ -1,0 +1,71 @@
+{
+  "baseline": {
+    "overall": {
+      "n": 30,
+      "accuracy": 0.167,
+      "critical_block_recall": 0.0,
+      "unsafe_proceed": 20
+    },
+    "by_domain": {
+      "insurance_claims": {
+        "n": 7,
+        "accuracy": 0.0,
+        "critical_block_recall": 0.0,
+        "unsafe_proceed": 4
+      },
+      "medical_logistics": {
+        "n": 9,
+        "accuracy": 0.111,
+        "critical_block_recall": 0.0,
+        "unsafe_proceed": 7
+      },
+      "mortgage_lending": {
+        "n": 7,
+        "accuracy": 0.286,
+        "critical_block_recall": 0.0,
+        "unsafe_proceed": 5
+      },
+      "retail_supply_chain": {
+        "n": 7,
+        "accuracy": 0.286,
+        "critical_block_recall": 0.0,
+        "unsafe_proceed": 4
+      }
+    }
+  },
+  "semantic": {
+    "overall": {
+      "n": 30,
+      "accuracy": 1.0,
+      "critical_block_recall": 1.0,
+      "unsafe_proceed": 0
+    },
+    "by_domain": {
+      "insurance_claims": {
+        "n": 7,
+        "accuracy": 1.0,
+        "critical_block_recall": 1.0,
+        "unsafe_proceed": 0
+      },
+      "medical_logistics": {
+        "n": 9,
+        "accuracy": 1.0,
+        "critical_block_recall": 1.0,
+        "unsafe_proceed": 0
+      },
+      "mortgage_lending": {
+        "n": 7,
+        "accuracy": 1.0,
+        "critical_block_recall": 1.0,
+        "unsafe_proceed": 0
+      },
+      "retail_supply_chain": {
+        "n": 7,
+        "accuracy": 1.0,
+        "critical_block_recall": 1.0,
+        "unsafe_proceed": 0
+      }
+    }
+  },
+  "label": "measured on synthetic cases (data/cases.json); regression checks, not quality claims"
+}
